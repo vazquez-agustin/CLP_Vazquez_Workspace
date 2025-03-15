@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\agust\CLP_Vazquez_Workspace\Ej_06\simulacion
+Effd
+Z1 w1742063746
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\agust\CLP_Vazquez_Workspace\Ej_06\simulacion
+Z5 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/ffd.vhd
+Z6 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/ffd.vhd
+l0
+L6
+Va[bXC9;Jm67G0`Ebn`mY20
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1742067910.809000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/ffd.vhd|
+Z10 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/ffd.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 kbcDGBmccN[Sa=JRcefJT0
+!i10b 1
+Affd_arq
+R2
+R3
+DEx4 work 3 ffd 0 22 a[bXC9;Jm67G0`Ebn`mY20
+l19
+L17
+VTcKgIMl[N0X@MLSMiLZSH0
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 ;WI`HaF9XKTlJh5FUnjCl0
+!i10b 1
+Ereg
+Z13 w1742067499
+R2
+R3
+R4
+Z14 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg.vhd
+Z15 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg.vhd
+l0
+L6
+VK7gkL_c=IH8Ogc;;G^Ajz0
+R7
+32
+Z16 !s108 1742067910.857000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg.vhd|
+Z18 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg.vhd|
+R11
+R12
+!s100 6_oF13WXMO@VCjlG:2Wi12
+!i10b 1
+Areg_arq
+R2
+R3
+DEx4 work 3 reg 0 22 K7gkL_c=IH8Ogc;;G^Ajz0
+l31
+L17
+V2EdX]dBb<MhaPHE>ze_NG0
+!s100 H_?XQ6ndOX<C1z]>0jPBd1
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!i10b 1
+Ereg_tb
+Z19 w1742067907
+R2
+R3
+R4
+Z20 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg_tb.vhd
+Z21 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg_tb.vhd
+l0
+L6
+Vg<Thf6fiS<lLYOaJ;HOjo0
+!s100 ZBQ4PJZ>dZ=@Hk`GcHZMH2
+R7
+32
+!i10b 1
+Z22 !s108 1742067910.905000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg_tb.vhd|
+Z24 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_06/fuente/reg_tb.vhd|
+R11
+R12
+Areg_tb_arq
+R2
+R3
+Z25 DEx4 work 6 reg_tb 0 22 g<Thf6fiS<lLYOaJ;HOjo0
+l34
+L10
+ViOPdVYSd8HNiN8;O_4MbL3
+!s100 >Vf6U;]l5@gSeO`V7Llki3
+R7
+32
+!i10b 1
+R22
+R23
+R24
+R11
+R12
