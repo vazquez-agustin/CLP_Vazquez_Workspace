@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\agust\CLP_Vazquez_Workspace\Ej_01\simulacion
+Esum1b
+Z0 w1742046307
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\agust\CLP_Vazquez_Workspace\Ej_02\simulacion
+Z4 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum1b.vhd
+Z5 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum1b.vhd
+l0
+L6
+VPnK4m<`[PEb]6>Z6:cbQc1
+!s100 `9M=mD7nk:MMHz7>2b2SU2
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1742051167.722000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum1b.vhd|
+Z9 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Asum1b_arq
+R1
+R2
+Z12 DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l19
+L17
+Z13 VN]e1bR7=oR5LBl@IboRg?3
+Z14 !s100 _hhZ:zH63R]6QGO5;1Ijb2
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Esum4b
+Z15 w1742050930
+R1
+R2
+R3
+Z16 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b.vhd
+Z17 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b.vhd
+l0
+L6
+V=c:V42K<2mU8g2ijY^2lD1
+R6
+32
+Z18 !s108 1742051167.618000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b.vhd|
+Z20 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b.vhd|
+R10
+R11
+!s100 ]U_be;@a>CSmA:;L8V0UF3
+!i10b 1
+Asum4b_arq
+R1
+R2
+DEx4 work 5 sum4b 0 22 =c:V42K<2mU8g2ijY^2lD1
+l31
+L17
+VSEoG[GiEUYX`254aID<Ae0
+R6
+32
+R18
+R19
+R20
+R10
+R11
+!s100 2ifglj4GOXm7K7YX[4;[X1
+!i10b 1
+Esum4b_tb
+Z21 w1742051151
+R1
+R2
+R3
+Z22 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b_tb.vhd
+Z23 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b_tb.vhd
+l0
+L6
+Vmo`S9[kfaT7`KTcQjT`S_2
+R6
+32
+Z24 !s108 1742051167.674000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b_tb.vhd|
+Z26 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_02/fuente/sum4b_tb.vhd|
+R10
+R11
+!s100 8Y;I`20lJbZnjWLPAl7Z_0
+!i10b 1
+Asum4b_tb_arq
+R1
+R2
+DEx4 work 8 sum4b_tb 0 22 mo`S9[kfaT7`KTcQjT`S_2
+l30
+L10
+VTY52_Wd7V4P2@JEL;5fWI2
+!s100 :^W3Paa`9l2C2gYfBT7Nb2
+R6
+32
+R24
+R25
+R26
+R10
+R11
+!i10b 1
