@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Esum1b
+Z0 w1742046307
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\agust\CLP_Vazquez_Workspace\Ej_01\simulacion
+Z4 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b.vhd
+Z5 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b.vhd
+l0
+L6
+VPnK4m<`[PEb]6>Z6:cbQc1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1742047294.678000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b.vhd|
+Z9 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 `9M=mD7nk:MMHz7>2b2SU2
+!i10b 1
+Asum1b_arq
+R1
+R2
+DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l19
+L17
+VN]e1bR7=oR5LBl@IboRg?3
+!s100 _hhZ:zH63R]6QGO5;1Ijb2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Esum1b_tb
+Z12 w1742047290
+R1
+R2
+R3
+Z13 8C:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b_tb.vhd
+Z14 FC:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b_tb.vhd
+l0
+L6
+V1<L9SE8J8P6J>9GCN04BM2
+!s100 BD9?j[fK_4@MM7BRflUzg2
+R6
+32
+!i10b 1
+Z15 !s108 1742047294.731000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b_tb.vhd|
+Z17 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Ej_01/fuente/sum1b_tb.vhd|
+R10
+R11
+Asum1b_tb_arq
+R1
+R2
+DEx4 work 8 sum1b_tb 0 22 1<L9SE8J8P6J>9GCN04BM2
+l30
+L10
+Vl5lK=58k<CCmiYPXmoTkP2
+!s100 C>QWS7H84N=[OcmSc7i182
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11
