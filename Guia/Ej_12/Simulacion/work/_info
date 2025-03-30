@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\agust\CLP_Vazquez_Workspace\Guia\Ej_11\Simulacion
+Ecountnb
+Z0 w1743367925
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\agust\CLP_Vazquez_Workspace\Guia\Ej_12\Simulacion
+Z5 8C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb.vhd
+Z6 FC:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb.vhd
+l0
+L7
+VUcIa?kYS[FYh`AWAadn1]1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1743368058.823000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb.vhd|
+Z10 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 0KCzMHh9eQ]OOcoO@JY@Q3
+!i10b 1
+Acountnb_arq
+R1
+R2
+R3
+DEx4 work 7 countnb 0 22 UcIa?kYS[FYh`AWAadn1]1
+l37
+L20
+V`>Z?15K5EfWg@G0Cn8CU23
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 AdgY<7cKUeGgfocGO2QHS0
+!i10b 1
+Ecountnb_tb
+Z13 w1743368049
+R1
+R2
+R3
+R4
+Z14 8C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb_tb.vhd
+Z15 FC:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb_tb.vhd
+l0
+L8
+VJdCX^XNPN0eDYI4j5D<H41
+R7
+32
+Z16 !s108 1743368058.875000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb_tb.vhd|
+Z18 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/countNb_tb.vhd|
+R11
+R12
+!s100 `?9FSIj?7FoPX=VHO67]i0
+!i10b 1
+Acountnb_arq
+R1
+R2
+R3
+DEx4 work 10 countnb_tb 0 22 JdCX^XNPN0eDYI4j5D<H41
+l33
+L12
+V1[cmim;OK93AcYUzPNm1?3
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 5X]AGO:[K66@@H?06HWog1
+!i10b 1
+Ereg
+Z19 w1743366936
+R2
+R3
+R4
+Z20 8C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/reg.vhd
+Z21 FC:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/reg.vhd
+l0
+L4
+V_6cliY8fG43B_YT4Njell0
+!s100 9`ZKRQZRTmWkE`ma1g2fh1
+R7
+32
+!i10b 1
+Z22 !s108 1743368058.948000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/reg.vhd|
+Z24 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_12/Fuente/reg.vhd|
+R11
+R12
+Areg_arq
+R2
+R3
+Z25 DEx4 work 3 reg 0 22 _6cliY8fG43B_YT4Njell0
+l18
+L17
+Z26 ViZ=e6oUW0YK^alSzG`Z372
+Z27 !s100 P@`@lP?BSJcJDkFEbXDUR0
+R7
+32
+!i10b 1
+R22
+R23
+R24
+R11
+R12
