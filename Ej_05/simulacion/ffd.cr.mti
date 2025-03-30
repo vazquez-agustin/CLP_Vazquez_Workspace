@@ -1,0 +1,17 @@
+C:/Users/agust/CLP_Vazquez_Workspace/Ej_05/fuente/ffd.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Ej_05/fuente/ffd.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ffd
+-- Compiling architecture ffd_arq of ffd
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Ej_05/fuente/ffd_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Ej_05/fuente/ffd_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ffd_tb
+-- Compiling architecture ffd_tb_arq of ffd_tb
+
+} {} {}}

@@ -6,6 +6,14 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity sumres4b
 -- Compiling architecture sumrestador4b_arq of sumres4b
 
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Ej_03/fuente/sumres4b_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Ej_03/fuente/sumres4b_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sumres4b_tb
+-- Compiling architecture sumres4b_tb_arq of sumres4b_tb
+
 } {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Ej_03/fuente/sum4b.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Ej_03/fuente/sum4b.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD

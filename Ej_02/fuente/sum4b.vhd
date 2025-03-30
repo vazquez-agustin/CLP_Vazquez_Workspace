@@ -15,7 +15,8 @@ end;
 
 -- Declaracion Cuerpo de Arquitectura
 architecture sum4b_arq of sum4b is
-  -- Parte Declarativa
+
+-- Parte Declarativa
   component sum1b is
   port(
     a_i:  in  std_logic; -- 1 bit
@@ -24,9 +25,9 @@ architecture sum4b_arq of sum4b is
     s_o:  out std_logic;
     co_o: out std_logic
   );
-end component;
+  end component;
 
-signal carry: std_logic_vector(4 downto 0);
+  signal carry: std_logic_vector(4 downto 0);
 
 begin
   -- Parte Descriptiva
