@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Ecountnb
+Z0 w1743872914
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\agust\CLP_Vazquez_Workspace\Guia\Ej_13\Simulacion
+Z5 8C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb.vhd
+Z6 FC:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb.vhd
+l0
+L7
+VUcIa?kYS[FYh`AWAadn1]1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1743872956.826000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb.vhd|
+Z10 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 0KCzMHh9eQ]OOcoO@JY@Q3
+!i10b 1
+Acountnb_behaviour_arq
+R1
+R2
+R3
+DEx4 work 7 countnb 0 22 UcIa?kYS[FYh`AWAadn1]1
+l24
+L20
+Vc[`Q:>LdWeYgg=CG]3SMV3
+!s100 Hz=m<=BHY3HfC3?hDO8KX1
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Ecountnb_behaviour_tb
+Z13 w1743872955
+R1
+R2
+R3
+R4
+Z14 8C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb_tb.vhd
+Z15 FC:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb_tb.vhd
+l0
+L8
+V4RhJbE5FWblEW3ziC?E4n0
+!s100 0hQM]UBco2nK_JY^iSUOU0
+R7
+32
+!i10b 1
+Z16 !s108 1743872956.932000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb_tb.vhd|
+Z18 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_13/Fuente/countNb_tb.vhd|
+R11
+R12
+Acountnb_behaviour_arq
+R1
+R2
+R3
+DEx4 work 20 countnb_behaviour_tb 0 22 4RhJbE5FWblEW3ziC?E4n0
+l33
+L12
+VXWK3JUU9<Lj_R>Z3AW<;`0
+!s100 ORe^aJ^QD2d=6@^lnOIUM1
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R11
+R12
