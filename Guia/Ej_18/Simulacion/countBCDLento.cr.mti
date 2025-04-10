@@ -1,0 +1,37 @@
+C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/countBCD.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/countBCD.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity countBCD
+-- Compiling architecture countBCD_behaviour_arq of countBCD
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/genEna.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/genEna.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity genEna
+-- Compiling architecture genEna_arch of genEna
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/countBCDLento.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/countBCDLento.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity countBCDLento
+-- Compiling architecture countBCDLento_arq of countBCDLento
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/countBCDLento_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Guia/Ej_18/Fuente/countBCDLento_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity countBCDLento_tb
+-- Compiling architecture countBCDLento_arq of countBCDLento_tb
+
+} {} {}}
