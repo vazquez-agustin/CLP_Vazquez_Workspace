@@ -1,4 +1,4 @@
--- Testbench de sumador de N bit
+-- Testbench de sumador de N bits
 
 -- Sección de librerías
 library IEEE;
