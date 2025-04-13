@@ -48,11 +48,11 @@ begin
   addNb_gen : for i in 0 to N-1 generate
     add1b_inst : add1b
       port map(
-        a_i  => A_i(i);
-        b_i  => B_i(i);
-        ci_i => aux(i);
-        s_i  => S_i(i);
-        co_o => aux(i+1);
+        a_i  => A_i(i),
+        b_i  => B_i(i),
+        ci_i => aux(i),
+        s_o  => S_o(i),
+        co_o => aux(i+1)
       );
   end generate;
 

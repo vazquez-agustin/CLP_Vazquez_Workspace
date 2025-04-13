@@ -35,7 +35,7 @@ begin
   div_result <= ("0" & a_unsigned) - ("0" & b_unsigned);
   
   -- Extracción de los 4 bits menos significativos para el resultado de la resta
-  r_o <= std_logic_vector(div_result(3 downto 0));
+  d_o <= std_logic_vector(div_result(3 downto 0));
 
   -- El bit MSB de div_result indica si hubo préstamo
   -- Si sub_result(4) = '0' no hubo préstamo, ya que c_o = not '0' = '1'.

@@ -26,7 +26,7 @@ begin
 
   -- Lógica de procesamiento
 
-  s_o  <= a_i xor b_i ci_i;
+  s_o  <= a_i xor b_i xor ci_i;
 
   co_o <= (a_i and b_i) or (a_i and ci_i) or (b_i and ci_i);
     

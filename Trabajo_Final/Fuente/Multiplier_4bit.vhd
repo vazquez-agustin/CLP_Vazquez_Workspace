@@ -10,7 +10,7 @@ entity mult4b is
   port (
     a_i : in std_logic_vector(3 downto 0);   -- Multiplicando A de 4 bits
     b_i : in std_logic_vector(3 downto 0);   -- Multiplicador B de 4 bits
-    p_o : out std_logic_vector(7 downto 0);  -- Producto de 8 bits
+    p_o : out std_logic_vector(7 downto 0)  -- Producto de 8 bits
   );
 end mult4b;
 
@@ -24,7 +24,7 @@ begin
   -- Sección descriptiva
 
   -- Conversión de dividendo (a) y divisor (b) a "unsigned"
-  process(a, b)
+  process(a_i, b_i)
     variable temp_prod : unsigned(7 downto 0) := (others => '0');
     variable midd_prod : unsigned(7 downto 0);
   begin
