@@ -14,7 +14,7 @@ architecture mult4b_tb_arch of mult4b_tb is
     port (
       a_i : in std_logic_vector(3 downto 0);
       b_i : in std_logic_vector(3 downto 0);
-      p_o : out std_logic_vector(7 downto 0);                    
+      p_o : out std_logic_vector(7 downto 0)                 
     );
   end component;
 
@@ -38,6 +38,16 @@ begin
     begin
       -- Caso 1
       a_tb <= "0111"; -- 7 en binario 
+      b_tb <= "0011"; -- 3 en binario
+      wait for 10 ns;
+
+      -- Caso 2
+      a_tb <= "0111"; -- 7 en binario 
+      b_tb <= "1000"; -- 8 en binario
+      wait for 10 ns;
+
+      -- Caso 3
+      a_tb <= "0000"; -- 0 en binario 
       b_tb <= "0011"; -- 3 en binario
       wait for 10 ns;
 

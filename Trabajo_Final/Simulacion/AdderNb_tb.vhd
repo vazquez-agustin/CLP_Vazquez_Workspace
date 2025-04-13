@@ -3,11 +3,12 @@
 -- Sección de librerías
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
-entity sumNb_tb is
-end sumNb_tb;
+entity addNb_tb is
+end addNb_tb;
 
-architecture sumNb_tb_arch of sumNb_tb is
+architecture addNb_tb_arch of addNb_tb is
 
   constant N_tb : natural := 4;
 
@@ -20,12 +21,15 @@ architecture sumNb_tb_arch of sumNb_tb is
 
 begin
 
+  B_tb  <= std_logic_vector(to_unsigned(12, N_tb)) after 100 ns; 
+  CI_tb <= '1' after 200 ns; 
+
   -- Instanciación del DUT
-  DUT: entity work.sumNb
+  DUT: entity work.addNb
 
     generic map (
       N => N_tb
-    );
+    )
 
     port map (
       A_i  => A_tb,
@@ -35,4 +39,4 @@ begin
       CO_o => CO_tb
     );
 
-end sumNb_tb_arch;
+end addNb_tb_arch;
