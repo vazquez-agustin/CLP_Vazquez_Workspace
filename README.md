@@ -1,7 +1,8 @@
 # Repositorio de Circuitos Lógicos Programables
 
-Profesor: Nicolás Alvarez
-Autor: Agustín Jesús Vazquez
+- Profesor: Nicolás Alvarez
+
+- Autor: Agustín Jesús Vazquez
 
 ## Descripción del repositorio
 
