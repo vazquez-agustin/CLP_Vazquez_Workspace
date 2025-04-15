@@ -28,14 +28,17 @@ begin
     variable midd_prod : unsigned(7 downto 0);
   begin
     temp_prod := (others => '0');
-
+    
+    -- Bucle para multiplicación binaria
     for i in 0 to 3 loop
       if b_i(i) = '1' then
+        -- Desplaza A según el bit de B en análisis
         midd_prod := unsigned("0000" & a_i) sll i;
         temp_prod := temp_prod + midd_prod;
       end if;
     end loop;
-
+ 
+    -- Conversión final a std_logic_vector
     p_o <= std_logic_vector(temp_prod);
 
   end process;

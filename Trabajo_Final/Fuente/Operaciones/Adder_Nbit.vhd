@@ -7,14 +7,14 @@ use IEEE.std_logic_1164.all;
 -- Declaración de la entidad
 entity addNb is 
   generic(
-    N : natural := 4
+    N : natural := 4 -- Cantidad de bits
   );
   port (
     A_i  : in std_logic_vector(N-1 downto 0);  -- Operando A
     B_i  : in std_logic_vector(N-1 downto 0);  -- Operando B
-    CI_i : in std_logic;                       -- Carry de entrada
-    S_o  : out std_logic_vector(N-1 downto 0); -- Suma de operandos
-    CO_o : out std_logic                       -- Carry de salida
+    CI_i : in std_logic;                       -- Carry-in: acarreo de entrada
+    S_o  : out std_logic_vector(N-1 downto 0); -- Resultado de la suma
+    CO_o : out std_logic                       -- Carry-out: acarreo de salida
   );
 end addNb;
 
@@ -34,17 +34,16 @@ architecture addNb_arch of addNb is
     );
   end component;
 
-  -- Señal auxiliar para interconectar los carrys de cada bit
+  -- Señal auxiliar para los carrys intermedios
   signal aux : std_logic_vector(N downto 0);
 
 begin
 
   -- Sección descriptiva
 
-  -- Carry inicial (LSB)
-  aux(0) <= ci_i;
+  aux(0) <= ci_i; -- Inicializa el primer carry (LSB)
 
-  -- Lógica de procesamiento
+  -- Instancia N sumadores de 1 bit
   addNb_gen : for i in 0 to N-1 generate
     add1b_inst : add1b
       port map(
@@ -56,7 +55,7 @@ begin
       );
   end generate;
 
-  -- Carry de salida global
+  -- El último carry es la salida global (MSB)
   co_o <= aux(N);
 
 end addNb_arch;
