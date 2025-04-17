@@ -8,8 +8,8 @@ use ieee.numeric_std.all;
 -- Declaración de la entidad
 entity bShifterNb is
   generic( 
-    N : natural := 8; -- Ancho de datos
-    M : natural := 3  -- Bits necesarios para representar el desplazamiento
+    N : natural := 4; -- Ancho de datos
+    M : natural := 2  -- Bits necesarios para representar el desplazamiento
   );
   port(
     ent_i : in  std_logic_vector(N-1 downto 0); -- Entrada de datos

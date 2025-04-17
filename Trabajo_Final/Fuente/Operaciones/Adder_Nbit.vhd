@@ -23,7 +23,7 @@ architecture addNb_arch of addNb is
   
   -- Sección declarativa
 
-  -- Componente
+  -- Componente de 1 bit
   component add1b is
     port (
       a_i  : in std_logic;
