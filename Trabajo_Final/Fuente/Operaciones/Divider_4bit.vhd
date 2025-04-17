@@ -23,14 +23,15 @@ architecture div4b_arch of div4b is
 begin
 
   -- Sección descriptiva
+  
   -- Cociente: si dvr_i="0000" marcamos error, si no dividimos
   c_o <= (others => '1')  
-         when dvr_i = "0000" else
-         std_logic_vector( unsigned(dvd_i) / unsigned(dvr_i) );
+  when dvr_i = "0000" else
+    std_logic_vector( unsigned(dvd_i) / unsigned(dvr_i) );
 
   -- Resto: si dvr_i="0000" devolvemos cero, si no calculamos rem
   r_o <= (others => '0')
-         when dvr_i = "0000" else
-         std_logic_vector( unsigned(dvd_i) rem unsigned(dvr_i) );
+  when dvr_i = "0000" else
+    std_logic_vector( unsigned(dvd_i) rem unsigned(dvr_i) );
 
 end div4b_arch;
