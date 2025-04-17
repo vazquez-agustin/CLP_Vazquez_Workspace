@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Multiplier
+Emult4b
+Z1 w1744749467
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Multiplier
+Z6 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd
+Z7 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd
+l0
+L9
+V^jGFE7=Xl<a=mM6?RSgN;0
+!s100 <^eP8zMi^X8>i;3W]L4SL3
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1744818914.050000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd|
+Z11 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Amult4b_arch
+R2
+R3
+R4
+Z14 DEx4 work 6 mult4b 0 22 ^jGFE7=Xl<a=mM6?RSgN;0
+l22
+L18
+Z15 VN3BggNLAeEnZXc0m^A3aB2
+Z16 !s100 zUILL@1NS?ceQMjf9BV?=1
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Emult4b_tb
+Z17 w1744818910
+R2
+R3
+R4
+R5
+Z18 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Multiplier4b_tb.vhd
+Z19 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Multiplier4b_tb.vhd
+l0
+L9
+V::KlQ8E8SnV3X>3D8Qfz@3
+R8
+32
+Z20 !s108 1744818914.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Multiplier4b_tb.vhd|
+Z22 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Multiplier4b_tb.vhd|
+R12
+R13
+!s100 2@cn2Eik<1J18;GKRko@81
+!i10b 1
+Amult4b_tb_arch
+R14
+R2
+R3
+R4
+DEx4 work 9 mult4b_tb 0 22 ::KlQ8E8SnV3X>3D8Qfz@3
+l20
+L13
+VlCL8IfhfaM07ZYeWe1SPm3
+R8
+32
+R20
+R21
+R22
+R12
+R13
+!s100 bnaWBcGFCD8eGZN2_SLYa1
+!i10b 1

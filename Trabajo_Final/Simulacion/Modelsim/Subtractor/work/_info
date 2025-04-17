@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Adder
+Esub4b
+Z0 w1744749359
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Subtractor
+Z5 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd
+Z6 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd
+l0
+L9
+VPm7QW`<JRA39e`dKZXGe@1
+!s100 ^RYeRmlM80lLB9iFLT2nO3
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1744818015.335000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd|
+Z10 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Asub4b_arch
+R1
+R2
+R3
+Z13 DEx4 work 5 sub4b 0 22 Pm7QW`<JRA39e`dKZXGe@1
+l27
+L19
+Z14 V;kG=[?3W^5YQQeQ2`Q>JW0
+Z15 !s100 Kj<`G9c2=6N=iM`JbBM2F0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Esub4b_tb
+Z16 w1744818012
+R1
+R2
+R3
+R4
+Z17 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Subtractor4b_tb.vhd
+Z18 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Subtractor4b_tb.vhd
+l0
+L9
+V;Cl6Rd^gm;J;[8nWIjN?Q3
+R7
+32
+Z19 !s108 1744818015.279000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Subtractor4b_tb.vhd|
+Z21 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Subtractor4b_tb.vhd|
+R11
+R12
+!s100 7C^Wd4NBLKmDT0IbPMUjl0
+!i10b 1
+Asub4b_tb_arch
+R13
+R1
+R2
+R3
+DEx4 work 8 sub4b_tb 0 22 ;Cl6Rd^gm;J;[8nWIjN?Q3
+l21
+L13
+ViO1T^7A0<:A_La>[;jP[Q1
+R7
+32
+R19
+R20
+R21
+R11
+R12
+!s100 NCOBaG=>Y`>Z6XZ=3nz0Q3
+!i10b 1

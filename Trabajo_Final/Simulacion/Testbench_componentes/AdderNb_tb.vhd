@@ -11,7 +11,7 @@ end addNb_tb;
 
 -- Descripción de la arquitectura
 architecture addNb_tb_arch of addNb_tb is
-
+  
   constant N_tb : natural := 4;
 
   -- Señales de prueba

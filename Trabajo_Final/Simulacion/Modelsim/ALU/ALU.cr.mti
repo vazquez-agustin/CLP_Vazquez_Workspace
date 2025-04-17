@@ -1,0 +1,77 @@
+C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sub4b
+-- Compiling architecture sub4b_arch of sub4b
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity add1b
+-- Compiling architecture add1b_arch of add1b
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/ALU/ALU.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/ALU/ALU.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture ALU_arch of ALU
+-- Loading entity addNb
+-- Loading entity sub4b
+-- Loading entity mult4b
+-- Loading entity div4b
+-- Loading entity bShifterNb
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Barrel_ShifterNb.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Barrel_ShifterNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bShifterNb
+-- Compiling architecture bShifterNb_arch of bShifterNb
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_Nbit.vhd {1 {vcom -work work -2002 -explicit {C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Adder_Nbit.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity addNb
+-- Compiling architecture addNb_arch of addNb
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Divider_4bit.vhd {1 {vcom -work work -2002 -explicit {C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity div4b
+-- Compiling architecture div4b_arch of div4b
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mult4b
+-- Compiling architecture mult4b_arch of mult4b
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_ALU/ALU_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_ALU/ALU_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU_tb
+-- Compiling architecture ALU_tb_arch of ALU_tb
+-- Loading entity ALU
+
+} {} {}}

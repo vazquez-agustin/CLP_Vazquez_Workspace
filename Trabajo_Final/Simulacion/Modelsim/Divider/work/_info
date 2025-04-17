@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\ALU
+Ediv4b
+Z0 w1744853525
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Divider
+Z5 8C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd
+Z6 FC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd
+l0
+L9
+VAb6RhVeig@:ae<dI`nibJ0
+!s100 Y2Z>f@<nz9b?^hDdFPK7J2
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1744854140.806000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd|
+Z10 !s107 C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Adiv4b_arch
+R1
+R2
+R3
+Z13 DEx4 work 5 div4b 0 22 Ab6RhVeig@:ae<dI`nibJ0
+l23
+L19
+Z14 VGWlaYddXeno<5IMk7bi=X2
+Z15 !s100 CkA3KN1kaNfnl8L5l@l0X2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Ediv4b_tb
+Z16 w1744854130
+R1
+R2
+R3
+R4
+Z17 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Divider4b_tb.vhd
+Z18 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Divider4b_tb.vhd
+l0
+L9
+VMfOX9njTW<`aO6:U=hdRi1
+R7
+32
+Z19 !s108 1744854140.748000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Divider4b_tb.vhd|
+Z21 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Divider4b_tb.vhd|
+R11
+R12
+!s100 Z6W3RGEAaSZL>Z_:XEVAF3
+!i10b 1
+Adiv4b_tb_arch
+R13
+R1
+R2
+R3
+DEx4 work 8 div4b_tb 0 22 MfOX9njTW<`aO6:U=hdRi1
+l21
+L13
+VEVg1o6A@CVZJNVzBZYde^0
+R7
+32
+R19
+R20
+R21
+R11
+R12
+!s100 gWQAGWK^]eIZdXF_Q^N;70
+!i10b 1

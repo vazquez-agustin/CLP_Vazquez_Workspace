@@ -1,0 +1,303 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Divider
+Eadd1b
+Z0 w1744748664
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\ALU
+Z4 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd
+Z5 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd
+l0
+L8
+V]K59:clFbGFBC9N@?LAG70
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1744853698.757000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd|
+Z9 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 F8jl:cUWAFaFDMKE`N>g<3
+!i10b 1
+Aadd1b_arch
+R1
+R2
+DEx4 work 5 add1b 0 22 ]K59:clFbGFBC9N@?LAG70
+l23
+L19
+VUNOh<UK6m]4LFMXSH1``c0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 0J5e`eSCM5_6^bMS=mUUc0
+!i10b 1
+Eaddnb
+Z12 w1744814452
+R1
+R2
+R3
+Z13 8C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Adder_Nbit.vhd
+Z14 FC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Adder_Nbit.vhd
+l0
+L8
+VgZ<Uk2Od@YoU9k8kn@gTW1
+R6
+32
+Z15 !s108 1744853698.806000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Adder_Nbit.vhd|
+Z17 !s107 C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Adder_Nbit.vhd|
+R10
+R11
+!s100 ]o0z:I<`1dY8VT_HR4F:l3
+!i10b 1
+Aaddnb_arch
+R1
+R2
+Z18 DEx4 work 5 addnb 0 22 gZ<Uk2Od@YoU9k8kn@gTW1
+l40
+L22
+VT>B^=k;Z7UD]8::8IWNFH0
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 2z1DlNnezL1SnBU`l6GM=0
+!i10b 1
+Ealu
+Z19 w1744853206
+Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z21 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/ALU/ALU.vhd
+Z22 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/ALU/ALU.vhd
+l0
+L9
+VKoj@Z10Ql7<4=PIFN26bi2
+R6
+32
+Z23 !s108 1744853698.693000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/ALU/ALU.vhd|
+Z25 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/ALU/ALU.vhd|
+R10
+R11
+!s100 D92K?g>Z4lzlINA<nFmdL3
+!i10b 1
+Aalu_arch
+Z26 DEx4 work 10 bshifternb 0 22 Hga`PmPL=FTiMW:cLAnXk2
+Z27 DEx4 work 5 div4b 0 22 Ab6RhVeig@:ae<dI`nibJ0
+Z28 DEx4 work 6 mult4b 0 22 ^jGFE7=Xl<a=mM6?RSgN;0
+Z29 DEx4 work 5 sub4b 0 22 Pm7QW`<JRA39e`dKZXGe@1
+R18
+R20
+R1
+R2
+Z30 DEx4 work 3 alu 0 22 Koj@Z10Ql7<4=PIFN26bi2
+l36
+L21
+VIKL`Z]4W^SRknNPPmAd?C0
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 YD>FVTSc`f]4:]W2M9]Hj1
+!i10b 1
+Ealu_tb
+Z31 w1744851893
+R20
+R1
+R2
+R3
+Z32 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_ALU/ALU_tb.vhd
+Z33 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_ALU/ALU_tb.vhd
+l0
+L16
+VYbTMESW^EigECdFdlSQ?k1
+R6
+32
+Z34 !s108 1744853698.630000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_ALU/ALU_tb.vhd|
+Z36 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_ALU/ALU_tb.vhd|
+R10
+R11
+!s100 N9od99W1CcIW]ZY<igaSP2
+!i10b 1
+Aalu_tb_arch
+R30
+R20
+R1
+R2
+DEx4 work 6 alu_tb 0 22 YbTMESW^EigECdFdlSQ?k1
+l33
+L20
+VnoWR@09dRgm6Ld94Kj3?B3
+R6
+32
+R34
+R35
+R36
+R10
+R11
+!s100 mi;aNjh7eicKElB=;k1oG3
+!i10b 1
+Ebshifternb
+Z37 w1744846139
+R20
+R1
+R2
+R3
+Z38 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Barrel_ShifterNb.vhd
+Z39 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Barrel_ShifterNb.vhd
+l0
+L9
+VHga`PmPL=FTiMW:cLAnXk2
+R6
+32
+Z40 !s108 1744853698.852000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Barrel_ShifterNb.vhd|
+Z42 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Barrel_ShifterNb.vhd|
+R10
+R11
+!s100 ze0>gDXXAGlaNUDhTIOY62
+!i10b 1
+Abshifternb_arch
+R20
+R1
+R2
+R26
+l28
+L22
+Vo`eRnFM>11S_zZioFWcmz3
+R6
+32
+R40
+R41
+R42
+R10
+R11
+!s100 27Fc5OS[fAWV4268GZ?993
+!i10b 1
+Ediv4b
+Z43 w1744853525
+R20
+R1
+R2
+R3
+Z44 8C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd
+Z45 FC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd
+l0
+L9
+VAb6RhVeig@:ae<dI`nibJ0
+R6
+32
+Z46 !s108 1744853698.902000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd|
+Z48 !s107 C:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Fuente\Operaciones\Divider_4bit.vhd|
+R10
+R11
+!s100 Y2Z>f@<nz9b?^hDdFPK7J2
+!i10b 1
+Adiv4b_arch
+R20
+R1
+R2
+R27
+l23
+L19
+VGWlaYddXeno<5IMk7bi=X2
+R6
+32
+R46
+R47
+R48
+R10
+R11
+!s100 CkA3KN1kaNfnl8L5l@l0X2
+!i10b 1
+Emult4b
+Z49 w1744749467
+R20
+R1
+R2
+R3
+Z50 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd
+Z51 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd
+l0
+L9
+V^jGFE7=Xl<a=mM6?RSgN;0
+R6
+32
+Z52 !s108 1744853698.951000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd|
+Z54 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Multiplier_4bit.vhd|
+R10
+R11
+!s100 <^eP8zMi^X8>i;3W]L4SL3
+!i10b 1
+Amult4b_arch
+R20
+R1
+R2
+R28
+l22
+L18
+VN3BggNLAeEnZXc0m^A3aB2
+!s100 zUILL@1NS?ceQMjf9BV?=1
+R6
+32
+R52
+R53
+R54
+R10
+R11
+!i10b 1
+Esub4b
+Z55 w1744749359
+R20
+R1
+R2
+R3
+Z56 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd
+Z57 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd
+l0
+L9
+VPm7QW`<JRA39e`dKZXGe@1
+!s100 ^RYeRmlM80lLB9iFLT2nO3
+R6
+32
+!i10b 1
+Z58 !s108 1744853699.006000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd|
+Z60 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd|
+R10
+R11
+Asub4b_arch
+R20
+R1
+R2
+R29
+l27
+L19
+Z61 V;kG=[?3W^5YQQeQ2`Q>JW0
+Z62 !s100 Kj<`G9c2=6N=iM`JbBM2F0
+R6
+32
+!i10b 1
+R58
+R59
+R60
+R10
+R11

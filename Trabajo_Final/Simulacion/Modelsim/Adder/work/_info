@@ -1,0 +1,113 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Eadd1b
+Z0 w1744748664
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\agust\CLP_Vazquez_Workspace\Trabajo_Final\Simulacion\Modelsim\Adder
+Z4 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd
+Z5 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd
+l0
+L8
+V]K59:clFbGFBC9N@?LAG70
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1744816675.303000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd|
+Z9 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_1bit.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 F8jl:cUWAFaFDMKE`N>g<3
+!i10b 1
+Aadd1b_arch
+R1
+R2
+DEx4 work 5 add1b 0 22 ]K59:clFbGFBC9N@?LAG70
+l23
+L19
+VUNOh<UK6m]4LFMXSH1``c0
+!s100 0J5e`eSCM5_6^bMS=mUUc0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Eaddnb
+Z12 w1744814452
+R1
+R2
+R3
+Z13 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_Nbit.vhd
+Z14 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_Nbit.vhd
+l0
+L8
+VgZ<Uk2Od@YoU9k8kn@gTW1
+!s100 ]o0z:I<`1dY8VT_HR4F:l3
+R6
+32
+!i10b 1
+Z15 !s108 1744816675.401000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_Nbit.vhd|
+Z17 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Adder_Nbit.vhd|
+R10
+R11
+Aaddnb_arch
+R1
+R2
+Z18 DEx4 work 5 addnb 0 22 gZ<Uk2Od@YoU9k8kn@gTW1
+l40
+L22
+Z19 VT>B^=k;Z7UD]8::8IWNFH0
+Z20 !s100 2z1DlNnezL1SnBU`l6GM=0
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11
+Eaddnb_tb
+Z21 w1744816665
+Z22 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z23 8C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/AdderNb_tb.vhd
+Z24 FC:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/AdderNb_tb.vhd
+l0
+L9
+Vja5:H;e7J@eL4cdS1[1YJ2
+R6
+32
+Z25 !s108 1744816675.228000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/AdderNb_tb.vhd|
+Z27 !s107 C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/AdderNb_tb.vhd|
+R10
+R11
+!s100 >7L:?UPPLClk?C7_4Vk=k1
+!i10b 1
+Aaddnb_tb_arch
+R18
+R22
+R1
+R2
+DEx4 work 8 addnb_tb 0 22 ja5:H;e7J@eL4cdS1[1YJ2
+l24
+L13
+VaNF5<RA2OmVKb[lW^cMZk3
+R6
+32
+R25
+R26
+R27
+R10
+R11
+!s100 =B>R@aC[=`n@]nmVHg1CW0
+!i10b 1

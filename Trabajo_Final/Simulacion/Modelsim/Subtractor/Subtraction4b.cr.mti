@@ -1,0 +1,20 @@
+C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Fuente/Operaciones/Subtractor_4bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sub4b
+-- Compiling architecture sub4b_arch of sub4b
+
+} {} {}} C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Subtractor4b_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/agust/CLP_Vazquez_Workspace/Trabajo_Final/Simulacion/Testbench_componentes/Subtractor4b_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sub4b_tb
+-- Compiling architecture sub4b_tb_arch of sub4b_tb
+-- Loading entity sub4b
+
+} {} {}}
