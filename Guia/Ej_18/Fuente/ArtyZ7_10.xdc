@@ -24,10 +24,10 @@ set_property -dict { PACKAGE_PIN M19  IOSTANDARD LVCMOS33 } [get_ports { ena_i }
 
 ##LEDs
 
-set_property -dict { PACKAGE_PIN R14    IOSTANDARD LVCMOS33 } [get_ports { count_o[0] }]; #IO_L6N_T0_VREF_34 Sch=LED0
-set_property -dict { PACKAGE_PIN P14    IOSTANDARD LVCMOS33 } [get_ports { count_o[1] }]; #IO_L6P_T0_34 Sch=LED1
-set_property -dict { PACKAGE_PIN N16    IOSTANDARD LVCMOS33 } [get_ports { count_o[2] }]; #IO_L21N_T3_DQS_AD14N_35 Sch=LED2
-set_property -dict { PACKAGE_PIN M14    IOSTANDARD LVCMOS33 } [get_ports { count_o[3] }]; #IO_L23P_T3_35 Sch=LED3
+set_property -dict { PACKAGE_PIN R14    IOSTANDARD LVCMOS33 } [get_ports { cuenta_o[0] }]; #IO_L6N_T0_VREF_34 Sch=LED0
+set_property -dict { PACKAGE_PIN P14    IOSTANDARD LVCMOS33 } [get_ports { cuenta_o[1] }]; #IO_L6P_T0_34 Sch=LED1
+set_property -dict { PACKAGE_PIN N16    IOSTANDARD LVCMOS33 } [get_ports { cuenta_o[2] }]; #IO_L21N_T3_DQS_AD14N_35 Sch=LED2
+set_property -dict { PACKAGE_PIN M14    IOSTANDARD LVCMOS33 } [get_ports { cuenta_o[3] }]; #IO_L23P_T3_35 Sch=LED3
 
 ##Buttons
 
@@ -70,29 +70,29 @@ set_property -dict { PACKAGE_PIN M14    IOSTANDARD LVCMOS33 } [get_ports { count
 ##HDMI RX Signals
 
 #set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { hdmi_rx_cec }]; #IO_L13N_T2_MRCC_35 Sch=HDMI_RX_CEC
-set_property -dict { PACKAGE_PIN P19   IOSTANDARD TMDS_33  } [get_ports { TMDS_clk_n }]; #IO_L13N_T2_MRCC_34 Sch=HDMI_RX_CLK_N
+#set_property -dict { PACKAGE_PIN P19   IOSTANDARD TMDS_33  } [get_ports { TMDS_clk_n }]; #IO_L13N_T2_MRCC_34 Sch=HDMI_RX_CLK_N
 #create_clock -period 8.334 -waveform {0.000 4.167} [get_ports TMDS_clk_p]
-set_property -dict { PACKAGE_PIN W20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_n[0]}]; #IO_L16N_T2_34 Sch=HDMI_RX_D0_N
-set_property -dict { PACKAGE_PIN V20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_p[0]}]; #IO_L16P_T2_34 Sch=HDMI_RX_D0_P
-set_property -dict { PACKAGE_PIN U20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_n[1]}]; #IO_L15N_T2_DQS_34 Sch=HDMI_RX_D1_N
-set_property -dict { PACKAGE_PIN T20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_p[1]}]; #IO_L15P_T2_DQS_34 Sch=HDMI_RX_D1_P
-set_property -dict { PACKAGE_PIN P20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_n[2]}]; #IO_L14N_T2_SRCC_34 Sch=HDMI_RX_D2_N
-set_property -dict { PACKAGE_PIN N20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_p[2]}]; #IO_L14P_T2_SRCC_34 Sch=HDMI_RX_D2_P
-set_property -dict { PACKAGE_PIN T19   IOSTANDARD LVCMOS33 } [get_ports { hdmi_hpd_tri_o[0] }]; #IO_25_34 Sch=HDMI_RX_HPD
-set_property -dict { PACKAGE_PIN U14   IOSTANDARD LVCMOS33 } [get_ports { DDC_scl_io }]; #IO_L11P_T1_SRCC_34 Sch=HDMI_RX_SCL
-set_property -dict { PACKAGE_PIN U15   IOSTANDARD LVCMOS33 } [get_ports { DDC_sda_io }]; #IO_L11N_T1_SRCC_34 Sch=HDMI_RX_SDA
+#set_property -dict { PACKAGE_PIN W20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_n[0]}]; #IO_L16N_T2_34 Sch=HDMI_RX_D0_N
+#set_property -dict { PACKAGE_PIN V20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_p[0]}]; #IO_L16P_T2_34 Sch=HDMI_RX_D0_P
+#set_property -dict { PACKAGE_PIN U20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_n[1]}]; #IO_L15N_T2_DQS_34 Sch=HDMI_RX_D1_N
+#set_property -dict { PACKAGE_PIN T20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_p[1]}]; #IO_L15P_T2_DQS_34 Sch=HDMI_RX_D1_P
+#set_property -dict { PACKAGE_PIN P20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_n[2]}]; #IO_L14N_T2_SRCC_34 Sch=HDMI_RX_D2_N
+#set_property -dict { PACKAGE_PIN N20   IOSTANDARD TMDS_33  } [get_ports { TMDS_data_p[2]}]; #IO_L14P_T2_SRCC_34 Sch=HDMI_RX_D2_P
+#set_property -dict { PACKAGE_PIN T19   IOSTANDARD LVCMOS33 } [get_ports { hdmi_hpd_tri_o[0] }]; #IO_25_34 Sch=HDMI_RX_HPD
+#set_property -dict { PACKAGE_PIN U14   IOSTANDARD LVCMOS33 } [get_ports { DDC_scl_io }]; #IO_L11P_T1_SRCC_34 Sch=HDMI_RX_SCL
+#set_property -dict { PACKAGE_PIN U15   IOSTANDARD LVCMOS33 } [get_ports { DDC_sda_io }]; #IO_L11N_T1_SRCC_34 Sch=HDMI_RX_SDA
 
 ##HDMI TX Signals
 
 #set_property -dict { PACKAGE_PIN G15   IOSTANDARD LVCMOS33 } [get_ports { hdmi_tx_cec }]; #IO_L19N_T3_VREF_35 Sch=HDMI_TX_CEC
-set_property -dict { PACKAGE_PIN L17   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_clk_n }]; #IO_L11N_T1_SRCC_35 Sch=HDMI_TX_CLK_N
-set_property -dict { PACKAGE_PIN L16   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_clk_p }]; #IO_L11P_T1_SRCC_35 Sch=HDMI_TX_CLK_P
-set_property -dict { PACKAGE_PIN K18   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_n[0] }]; #IO_L12N_T1_MRCC_35 Sch=HDMI_TX_D0_N
-set_property -dict { PACKAGE_PIN K17   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_p[0]  }]; #IO_L12P_T1_MRCC_35 Sch=HDMI_TX_D0_P
-set_property -dict { PACKAGE_PIN J19   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_n[1]  }]; #IO_L10N_T1_AD11N_35 Sch=HDMI_TX_D1_N
-set_property -dict { PACKAGE_PIN K19   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_p[1]  }]; #IO_L10P_T1_AD11P_35 Sch=HDMI_TX_D1_P
-set_property -dict { PACKAGE_PIN H18   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_n[2]  }]; #IO_L14N_T2_AD4N_SRCC_35 Sch=HDMI_TX_D2_N
-set_property -dict { PACKAGE_PIN J18   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_p[2]  }]; #IO_L14P_T2_AD4P_SRCC_35 Sch=HDMI_TX_D2_P
+#set_property -dict { PACKAGE_PIN L17   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_clk_n }]; #IO_L11N_T1_SRCC_35 Sch=HDMI_TX_CLK_N
+#set_property -dict { PACKAGE_PIN L16   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_clk_p }]; #IO_L11P_T1_SRCC_35 Sch=HDMI_TX_CLK_P
+#set_property -dict { PACKAGE_PIN K18   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_n[0] }]; #IO_L12N_T1_MRCC_35 Sch=HDMI_TX_D0_N
+#set_property -dict { PACKAGE_PIN K17   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_p[0]  }]; #IO_L12P_T1_MRCC_35 Sch=HDMI_TX_D0_P
+#set_property -dict { PACKAGE_PIN J19   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_n[1]  }]; #IO_L10N_T1_AD11N_35 Sch=HDMI_TX_D1_N
+#set_property -dict { PACKAGE_PIN K19   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_p[1]  }]; #IO_L10P_T1_AD11P_35 Sch=HDMI_TX_D1_P
+#set_property -dict { PACKAGE_PIN H18   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_n[2]  }]; #IO_L14N_T2_AD4N_SRCC_35 Sch=HDMI_TX_D2_N
+#set_property -dict { PACKAGE_PIN J18   IOSTANDARD TMDS_33  } [get_ports { TMDS_1_data_p[2]  }]; #IO_L14P_T2_AD4P_SRCC_35 Sch=HDMI_TX_D2_P
 #set_property -dict { PACKAGE_PIN R19   IOSTANDARD LVCMOS33 } [get_ports { hdmi_hpd_tri_o[0] }]; #IO_0_34 Sch=HDMI_TX_HPDN
 #set_property -dict { PACKAGE_PIN M17   IOSTANDARD LVCMOS33 } [get_ports { hdmi_tx_scl }]; #IO_L8P_T1_AD10P_35 Sch=HDMI_TX_SCL
 #set_property -dict { PACKAGE_PIN M18   IOSTANDARD LVCMOS33 } [get_ports { hdmi_tx_sda }]; #IO_L8N_T1_AD10N_35 Sch=HDMI_TX_SDA

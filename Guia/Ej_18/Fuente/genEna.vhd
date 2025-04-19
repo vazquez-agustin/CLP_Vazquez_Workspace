@@ -1,18 +1,17 @@
--- Bibliotecas
 library IEEE;
 use IEEE.std_logic_1164.all;
-use ieee.numeric_std.all;
+use IEEE.numeric_std.all;
 
 -- Declaracion de entidad
 entity genEna is
-  generic(
-    N: natural := 4
-  );
-  port (
-    rst_i: in std_logic;
-    clk_i: in std_logic;
-    s_o:   out std_logic
-  );
+    generic(
+        N: natural := 4
+    );
+    port (
+        rst_i: in std_logic;
+        clk_i: in std_logic;
+        s_o:   out std_logic
+    );
 end entity genEna;
 
 -- Declaracion cuerpo de arquitectura
@@ -39,5 +38,5 @@ begin
       end if;
     end if;
   end process;
-
+  
 end architecture;
