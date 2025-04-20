@@ -1,66 +1,64 @@
+# Utilization Report
+
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
--------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Fri Apr 18 20:22:11 2025
-| Host         : NB459408 running 64-bit major release  (build 9200)
-| Command      : report_utilization -file C:/Xilinx/ALU/Fuente/ALU/UtilizationReport.txt -name utilization_1
-| Design       : ALU_VIO
-| Device       : 7z010clg400-1
-| Design State : Routed
--------------------------------------------------------------------------------------------------------------
+
+**Tool Version**: Vivado v.2018.1 (win64) Build 2188600  
+**Date**: Fri Apr 18 20:22:11 2025  
+**Host**: NB459408 running 64-bit major release (build 9200)  
+**Command**: `report_utilization -file C:/Xilinx/ALU/Fuente/ALU/UtilizationReport.txt -name utilization_1`  
+**Design**: ALU_VIO  
+**Device**: 7z010clg400-1  
+**Design State**: Routed
 
 Utilization Design Information
 
-Table of Contents
------------------
-1. Slice Logic
-1.1 Summary of Registers by Type
-2. Slice Logic Distribution
-3. Memory
-4. DSP
-5. IO and GT Specific
-6. Clocking
-7. Specific Feature
-8. Primitives
-9. Black Boxes
-10. Instantiated Netlists
+# Table of Contents
 
-1. Slice Logic
---------------
+1. **Slice Logic**
+   1.1 Summary of Registers by Type
+2. **Slice Logic Distribution**
+3. **Memory**
+4. **DSP**
+5. **IO and GT Specific**
+6. **Clocking**
+7. **Specific Feature**
+8. **Primitives**
+9. **Black Boxes**
+10. **Instantiated Netlists**
 
-+----------------------------+------+-------+-----------+-------+
-|          Site Type         | Used | Fixed | Available | Util% |
-+----------------------------+------+-------+-----------+-------+
-| Slice LUTs                 |  683 |     0 |     17600 |  3.88 |
-|   LUT as Logic             |  659 |     0 |     17600 |  3.74 |
-|   LUT as Memory            |   24 |     0 |      6000 |  0.40 |
-|     LUT as Distributed RAM |   24 |     0 |           |       |
-|     LUT as Shift Register  |    0 |     0 |           |       |
-| Slice Registers            | 1058 |     0 |     35200 |  3.01 |
-|   Register as Flip Flop    | 1058 |     0 |     35200 |  3.01 |
-|   Register as Latch        |    0 |     0 |     35200 |  0.00 |
-| F7 Muxes                   |    6 |     0 |      8800 |  0.07 |
-| F8 Muxes                   |    2 |     0 |      4400 |  0.05 |
-+----------------------------+------+-------+-----------+-------+
+## 1. Slice Logic
+
+| Site Type                 | Used | Fixed | Available | Util% |
+|---------------------------|------|-------|-----------|-------|
+| Slice LUTs                 | 683  | 0     | 17600     | 3.88  |
+|   LUT as Logic             | 659  | 0     | 17600     | 3.74  |
+|   LUT as Memory            | 24   | 0     | 6000      | 0.40  |
+|     LUT as Distributed RAM | 24   | 0     |           |       |
+|     LUT as Shift Register  | 0    | 0     |           |       |
+| Slice Registers            | 1058 | 0     | 35200     | 3.01  |
+|   Register as Flip Flop    | 1058 | 0     | 35200     | 3.01  |
+|   Register as Latch        | 0    | 0     | 35200     | 0.00  |
+| F7 Muxes                   | 6    | 0     | 8800      | 0.07  |
+| F8 Muxes                   | 2    | 0     | 4400      | 0.05  |
 
 
-1.1 Summary of Registers by Type
---------------------------------
+### 1.1 Summary of Registers by Type
 
-+-------+--------------+-------------+--------------+
 | Total | Clock Enable | Synchronous | Asynchronous |
-+-------+--------------+-------------+--------------+
-| 0     |            _ |           - |            - |
-| 0     |            _ |           - |          Set |
-| 0     |            _ |           - |        Reset |
-| 0     |            _ |         Set |            - |
-| 0     |            _ |       Reset |            - |
-| 0     |          Yes |           - |            - |
-| 40    |          Yes |           - |          Set |
-| 171   |          Yes |           - |        Reset |
-| 10    |          Yes |         Set |            - |
-| 837   |          Yes |       Reset |            - |
-+-------+--------------+-------------+--------------+
+|-------|--------------|-------------|--------------|
+| 0     | _            | -           | -            |
+| 0     | _            | -           | Set          |
+| 0     | _            | -           | Reset        |
+| 0     | _            | Set         | -            |
+| 0     | _            | Reset       | -            |
+| 0     | Yes          | -           | -            |
+| 40    | Yes          | -           | Set          |
+| 171   | Yes          | -           | Reset        |
+| 10    | Yes          | Set         | -            |
+| 837   | Yes          | Reset       | -            |
+
+
+
 
 
 2. Slice Logic Distribution
