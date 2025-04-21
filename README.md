@@ -24,7 +24,7 @@
     * [Testbench_ALU](https://github.com/vazquez-agustin/CLP_Vazquez_Workspace/tree/main/Trabajo_Final/Simulacion/Testbench_ALU): contiene los archivos *.vhd* test bench para la simulacion del proyecto principal con la herramienta modelsim.
     * [Testbench_componentes](https://github.com/vazquez-agustin/CLP_Vazquez_Workspace/tree/main/Trabajo_Final/Simulacion/Testbench_componentes): contiene los archivos *.vhd* test bench para la simulacion de los componentes del proyecto.
     * [Modelsim](https://github.com/vazquez-agustin/CLP_Vazquez_Workspace/tree/main/Trabajo_Final/Simulacion/Modelsim): contiene las simulaciones de la ALU y sus componentes realizadas en el software Modelsim.
-* Sintesis: se encuentra el archivo de configuración del proyecto **ALU_VIO.bit**, que fue generado en el software Vivado.
+* [Sintesis](https://github.com/vazquez-agustin/CLP_Vazquez_Workspace/tree/main/Trabajo_Final/Sintesis): se encuentra el archivo de configuración del proyecto **ALU_VIO.bit**, que fue generado en el software Vivado.
 
 3. [Documentacion_TPFinal](https://github.com/vazquez-agustin/CLP_Vazquez_Workspace/tree/main/Documentacion_TPFinal): carpeta que contiene la domumentación que describe brevemente el trabajo realizado en la ALU. Incluye los siguientes documentos:
     * UtilizationReport.txt
