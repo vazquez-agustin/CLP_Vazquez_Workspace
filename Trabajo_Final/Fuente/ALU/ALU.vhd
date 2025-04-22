@@ -135,7 +135,7 @@ begin
           r_o  <= "0000" & shift_out;
           co_o <= '0';
 
-        when others =>
+        when others  =>
           -- Caso por defecto: salida en cero
           r_o  <= (others => '0');
           co_o <= '0';
